@@ -143,7 +143,7 @@ article .share-area.opened button svg path {
   article .content {
     gap: 1rem;
   }
-  article .user-info .share-area button {
+  article .user-info .share-area.opened button {
     position: relative;
     top: 1rem;
     z-index: 100;
