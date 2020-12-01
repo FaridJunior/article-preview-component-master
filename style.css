@@ -20,7 +20,7 @@ body {
   background-color: var(--Light-Grayish-Blue);
 }
 article {
-  margin: 12rem auto;
+  margin: 14.8rem auto;
   max-width: 39rem;
   max-height: 14.75rem;
   background-color: #fff;
@@ -43,7 +43,7 @@ article .img-container {
 article .content {
   padding: 1.6rem;
   display: flex;
-  gap: 0.5rem;
+  gap: 0.8rem;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -69,7 +69,7 @@ article .user-info .user-data {
   flex: 2;
   padding-left: 1rem;
 }
-article .user-info > p {
+article .user-info p {
   font-size: 0.65rem;
   color: var(--Dark-Blue);
 }
