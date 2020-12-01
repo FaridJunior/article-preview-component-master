@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     shareArea.classList.toggle("opened")
   })
   shareBtn.addEventListener("focusout",(e)=>{
-    shareArea.classList.remove("opened")
+    // set timeout to allow link click before hide links
+    setTimeout(()=>shareArea.classList.remove("opened"),100)
   })
 })
