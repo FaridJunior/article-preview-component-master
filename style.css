@@ -20,9 +20,8 @@ body {
   background-color: var(--Light-Grayish-Blue);
 }
 article {
-  margin: 14.8rem auto;
+  margin: 15.8rem auto;
   max-width: 39rem;
-  max-height: 14.75rem;
   background-color: #fff;
   box-shadow: 12px 12px 20px 0px rgba(0, 0, 0, 0.08);
   border-radius: 1rem;
@@ -30,15 +29,16 @@ article {
 }
 article .img-container {
   min-width: 14.825rem;
-  min-height: 14.75rem;
-  flex-basis: 14.75rem;
-  border-bottom-left-radius: 0.5rem;
+  min-height: 15.8rem;
+  border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
   overflow: hidden;
 }
 .img-container img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  object-position: left;
 }
 article .content {
   padding: 1.6rem;
